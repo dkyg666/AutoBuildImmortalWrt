@@ -79,7 +79,7 @@ jobs:
         run: |
           cp ${{ github.workspace }}/bin/targets/x86/64/*squashfs-combined-efi.img.gz ${{ github.workspace }}
           cp ${{ github.workspace }}/bin/targets/x86/64/*rootfs.tar.gz ${{ github.workspace }}
-          for file in *squashfs-combined-efi.img.gz *rootfs.tar.gz;; do
+          for file in *squashfs-combined-efi.img.gz *rootfs.tar.gz; do
             sha256sum "$file" > "$file.sha256"
             sha256sum -c "$file.sha256"
           done
