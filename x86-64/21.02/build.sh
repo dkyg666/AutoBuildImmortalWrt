@@ -32,10 +32,18 @@ PACKAGES="$PACKAGES luci-i18n-beardropper-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-uhttpd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wireguard-zh-c"
+PACKAGES="$PACKAGES luci-i18n-timecontrol-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-vnstat2-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wechatpush-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
     PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
+    PACKAGES="$PACKAGES docker-compose"
     echo "Adding package: luci-i18n-dockerman-zh-cn"
 fi
 
