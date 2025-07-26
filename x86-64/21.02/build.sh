@@ -43,6 +43,7 @@ PACKAGES="$PACKAGES luci-i18n-gowebdav-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ramfree-zh-cn"
 PACKAGES="$PACKAGES luci-app-syncdial"
 PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
 
 
 # 判断是否需要编译 Docker 插件
