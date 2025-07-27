@@ -47,6 +47,7 @@ PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
 PACKAGES="$PACKAGES luci-app-socat"
 PACKAGES="$PACKAGES luci-i18n-arpbind-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-advancedsetting-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
 
 
 
