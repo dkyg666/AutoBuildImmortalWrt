@@ -11,6 +11,7 @@ PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES cfdisk"
 PACKAGES="$PACKAGES lsblk"
+PACKAGES="$PACKAGES iftop"
 PACKAGES="$PACKAGES fuse-overlayfs"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-turboacc-zh-cn"
@@ -46,6 +47,7 @@ PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
 PACKAGES="$PACKAGES luci-app-socat"
 PACKAGES="$PACKAGES luci-i18n-arpbind-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-advancedsetting-zh-cn"
+
 
 
 # 判断是否需要编译 Docker 插件
