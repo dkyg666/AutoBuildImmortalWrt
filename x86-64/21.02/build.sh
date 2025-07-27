@@ -49,7 +49,7 @@ PACKAGES="$PACKAGES luci-i18n-arpbind-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-advancedsetting-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-cifs-mount-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
-PACKAGES="$PACKAGES kmod-shortcut-fe-cm"
+
 
 
 
