@@ -62,6 +62,7 @@ PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 PACKAGES="$PACKAGES resize2fs"
 PACKAGES="$PACKAGES losetup"
 PACKAGES="$PACKAGES luci-i18n-pppoe-server-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn"
 
 
 
