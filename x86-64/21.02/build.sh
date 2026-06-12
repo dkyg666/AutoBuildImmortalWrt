@@ -64,6 +64,8 @@ PACKAGES="$PACKAGES losetup"
 PACKAGES="$PACKAGES luci-i18n-pppoe-server-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-usb-printer-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
+PACKAGES="$PACKAGES kmod-tcp-bbr"
+
 
 
 
