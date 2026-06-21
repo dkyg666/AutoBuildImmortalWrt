@@ -68,6 +68,8 @@ PACKAGES="$PACKAGES kmod-tcp-bbr"
 PACKAGES="$PACKAGES qrencode"
 PACKAGES="$PACKAGES htop"
 PACKAGES="$PACKAGES sysstat"
+PACKAGES="$PACKAGES sshtunnel"
+
 
 
 
